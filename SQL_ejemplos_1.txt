@@ -1,0 +1,17 @@
+SELECT * FROM
+PERSON.PERSON AS P
+JOIN HumanResources.Employee AS E
+ON P.BusinessEntityID = E.BusinessEntityID
+WHERE 5000.00 IN (SELECT SP.Bonus FROM 
+SALES.SalesPerson AS SP
+WHERE E.BusinessEntityID = SP.BusinessEntityID
+)
+
+
+
+SELECT SP.BusinessEntityID, SP.Bonus FROM 
+SALES.SalesPerson AS SP
+WHERE Bonus = 5000.00
+
+
+test clase ejemplo SQL server
