@@ -7,6 +7,7 @@
 --cuyos apellidos comiencen con la letra 'A'. Los resultados 
 --deben ordenarse por apellido.
 
+--mi solucion.... NO SIRVE PORQUE TENGO QUE AGARRAR LOS DATOS DE CADA TABLA ESPECIFICA
 --SELECT LN.EmailAddress, LN.FirstName, LN.LastName, LN.JobTitle
 --FROM HumanResources.vEmployee AS LN
 --WHERE LastName LIKE	'A%'
