@@ -18,3 +18,6 @@ ON SOH.SalesOrderID = SOD.SalesOrderID
 WHERE YEAR(SOH.OrderDate) < 2017
 GROUP BY PC.Name
 ORDER BY TOTAL_SALES;
+
+-- join e inner join son prácticamente lo mismo
+--es mejor hacer join que sub busquedas
